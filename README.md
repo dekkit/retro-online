@@ -1,4 +1,4 @@
-WORK IN PROGRESS - This will be expanded over time (Last Update - 20/04/25)
+WORK IN PROGRESS - This will be expanded over time (Last Update - 20/02/26)
 
 # retro-online
 A collection of notes and experiences for playing retro games online via emulators.
@@ -29,8 +29,7 @@ _**Linked Multiplayer**_
 As technology evolved,  additional methods of communicating between systems emerged.   This meant that players no longer needed be on the same device (in some cases not even in the same room or physical location), instead they could have their own device (**ie. Different Devices that are Linked**).
 
 - **Comm / Serial / Parallel / Modem** - Each player has their own device and screen which was typically connected via a communication cable or modem - typically a max of 2 players although greater numbers were possible (Examples: Tetris via GameBoy Link / Need for Speed 1 via Null Modem Cable)
-- **Local LAN** - Each player has their own device and screen which was typically connected via a local area network (LAN) device and cable in the same physical location - this could have any number of players cabled or wirelessly connected in the same location (Examples: Doom, Duke3d, WarCraft 2 etc) 
-
+- **Local LAN / LAN party** - Each player has their own device and screen which was typically connected via a local area network (LAN) device and cable in the same physical location - this could have any number of players cabled or wirelessly connected in the same location (Examples: Doom, Duke3d, WarCraft 2 etc).  Back in the day, people would host LAN parties and run make shift networks throughout their house and game until sun would come up. 
 _**Online Multiplayer**_ 
 
 As the internet took off, multiplayer gaming was taken in new amazing directions  -  you can now game anywhere with any number of players using a variety of different connectivity options both wired and wirelessly (**ie. Different Devices Connected via the Internet**).
@@ -39,10 +38,10 @@ As the internet took off, multiplayer gaming was taken in new amazing directions
 - **Cloud / Streaming** - Each player has their own device and screen and connection to the internet, howeever the game is stored and operated remotely on another computer with the video output streamed to each player  (Examples: AntStream, Xbox Cloud)
 
 
-_Emulation Challenges_
+_Emulation / Network Gaming Challenges_
 - Many early games were simply never designed to support remote players - emulation developers have to design methods to keep copies of a single console in sync across multiple locations.
-- Linked games are very sensitive to data delays, as the fast as modern internet can be, any delays can cause link games to get out of sync.
-- LAN based games were never designed to take player data from outside / public networks.
+- Serial Linked games are very sensitive to data delays, as the fast as modern internet can be, any communication delays or information being sent out of order can cause link games to get out of sync or freeze.
+- LAN based games were never designed to take player data from outside / public networks.   I've  discovered that both the HOST player and CLIENT players on LAN mode games need to expose a range of network ports on their device to communicate effectively (i.e. it all players need to act as a server, and listen on various ports), many LAN games use a broadcast message on the local network find and annouce game sessions.   If not configured properly, this results in players not seeing any gaming session, seeing gaming sessions but not being able to join, or being able to join and the game crashes or  freezes. 
 
 
 
@@ -64,18 +63,21 @@ Things to note:
 The following are my picks for playing 'Local Multiplayer' of your favourite console, computer and arcade fighting games using optimised NETPLAY features.
 
 - **Fightcade** - One of the best, once installed plays a huge range of retro game and fighting games with a strong community and heavily optimised for online gaming with roll back and other tweaks (example: Mortal Kombat, Street Fighter 2).  Note: Limited to Max 2 Players, offers lobby and chat.  While all the best 8-bit/16-bit consoles and arcades are supported, also includes dreamcast (flycast).
-- **RetroArch** - Offers play 4 players for your favourite emulatators, and relay servers to minimise needing to mess with your internet router.   While performance was generally really good, retroarch can be challenging to setup and nagivating the endless options - particularly with players thats have never used retroarch before.
+- **Arkadyzja** - Similar to Fightcade  includes Dreamcast (flycast) and also Playstation 1 (with 2 and upto 4 player support).  This is great for Tekken 3 and other greats on PS1.  Definately worth checking out - performance was excellent.
+- **RetroArch** - Offers 4+ players for your favourite emulatators, and relay servers to minimise needing to mess with your internet router.   While performance was generally really good, retroarch can be challenging to setup and nagivating the endless options - particularly with players thats have never used retroarch before.
 - **AmigaLive** - Offers a great way to play side by side Amiga 500 and Amiga 1200 games over the internet, setup is very easy and a large number of amiga classics are supported.   Supports more than 2 players for games that support it.
 - **DuckStation** - Offers a great way to play side by side PSX games over the internet, using rollback features to ensure smooth play online.
+- **Gopher64** - Is one of the best recent discoveries for playing N64 - 4 players online.   It includes a region based cloud based netplay servers, to make hosting really simple and straightforward.   Includes rollback code, to make online play with 4 players exceptional (think Mario Kart 64, and SmashBros).   You can also host your own server and port forward if needed.   Definately worth a look highly recommended.
 
 An alternative approach to consider for local multiplayer, is to use a video streaming service such as:
-- **Parsec**  - While the above options use  netplay features (each player runs an local instance of the console / computer that is kept in sync at regular intervals), parsec runs everything on one computer and streams the video output to each participating player (players provide gamepad inputs to the host).  It is much more bandwidth heavy but avoids desync issues associated with netplay.  It is generally better for emulators that have no online / limited netplay features - i.e. N64 etc.   It effectively turns the hosts pc into a private retro cloud gaming service.
+- **Parsec**  - While the above options use  netplay features (each player runs an local instance of the console / computer that is kept in sync at regular intervals), parsec runs everything on one computer and streams the video output to each participating player (players provide gamepad inputs to the host).  It is much more bandwidth heavy but avoids desync issues associated with netplay.  It is generally better for emulators that have no online / limited netplay features.   It effectively turns the hosts pc into a private retro cloud gaming service.
 
 The following are my picks for playing 'Linked Multiplayer' of your favourite LAN / Serial link games:
 
 - **DOSBOX** - Offers a great way to play network LAN games over the internet.   The best option is to look for the eXoDOS collection, which already configures each network / serial game for easy network play (the host will have to forward a network port on their router, which may not be possible for some users).
-- **Doom / Duke3d / various source ports** - Many linked / LAN multiplayer games have been adapted into modern online friendly versions by various community focused projects.  This takes a lot of the pain of running online LAN Parties of your favourite FPS games, and adds in some nice quality of life improvements (support more than 8 players, mouse look) to make the classics much enjoyable.
+- **Doom / Duke3d / various source ports / remakes ** - Many linked / LAN multiplayer games have been adapted into modern online friendly versions by various community focused projects.  This takes a lot of the pain of running online LAN Parties of your favourite FPS games, and adds in some nice quality of life improvements (support more than 8 players, mouse look) to make the classics much enjoyable.
 - **Xlink Kai** - Provide a network tunnelling service for  emulators (and real gaming hardware) to communicate online.  It works great, has great documentation and support, but of time to setup can be considerable depending on the emulator  or real console your setting up.   The biggest benefit is that you can game with a mix of real gaming hardware (e.g. PS2) and emulators (PCSX2) on the same network.
+- **Radmin VPN** - Is a free VPN application and service that provides exceptional support for local LAN gaming / system link gaming over the internet.  If you are getting tired of messing with firewallsettings and / or trying to figure out which ports to forward on each device to get your LAN games working across the internet, highly recommend give this a try.   Note: In the Radmin VPN settings make sure add your LAN game into the server list to resolve any connection issues (google for more info).
 
 
 **Network Ports**
