@@ -29,7 +29,9 @@ _**Linked Multiplayer**_
 As technology evolved,  additional methods of communicating between systems emerged.   This meant that players no longer needed be on the same device (in some cases not even in the same room or physical location), instead they could have their own device (**ie. Different Devices that are Linked**).
 
 - **Comm / Serial / Parallel / Modem** - Each player has their own device and screen which was typically connected via a communication cable or modem - typically a max of 2 players although greater numbers were possible (Examples: Tetris via GameBoy Link / Need for Speed 1 via Null Modem Cable)
-- **Local LAN / LAN party** - Each player has their own device and screen which was typically connected via a local area network (LAN) device and cable in the same physical location - this could have any number of players cabled or wirelessly connected in the same location (Examples: Doom, Duke3d, WarCraft 2 etc).  Back in the day, people would host LAN parties and run make shift networks throughout their house and game until sun would come up. 
+- **Local LAN / LAN party** - Each player has their own device and screen which was typically connected via a local area network (LAN) device and cable in the same physical location - this could have any number of players cabled or wirelessly connected in the same location (Examples: Doom, Duke3d, WarCraft 2 etc).  Back in the day, people would host LAN parties and run make shift networks throughout their house and game until sun would come up.
+
+  
 _**Online Multiplayer**_ 
 
 As the internet took off, multiplayer gaming was taken in new amazing directions  -  you can now game anywhere with any number of players using a variety of different connectivity options both wired and wirelessly (**ie. Different Devices Connected via the Internet**).
