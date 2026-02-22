@@ -1,4 +1,4 @@
-WORK IN PROGRESS - This will be expanded over time (Last Update - 20/02/26)
+WORK IN PROGRESS - This will be expanded over time (Last Update - 22/02/26)
 
 # retro-online
 A collection of notes and experiences for playing retro games online via emulators.
@@ -63,10 +63,10 @@ Things to note:
 **Getting Started**
 
 The following are my picks for playing 'Local Multiplayer' of your favourite console, computer and arcade fighting games using optimised NETPLAY features.
+All are free to use as of writing.
 
 
-
-| Application | Supports| Comments|
+| Application/Service | Supports| Comments|
 |------|--------|--------|
 |**Fightcade**|Many|Try this first, its one of the best imo.  Once installed plays a huge range of retro game and fighting games with a strong community and heavily optimised for online gaming with roll back and other tweaks (example: Mortal Kombat, Street Fighter 2).  Note: Limited to Max 2 Players, offers lobby and chat.  All the best 8-bit/16-bit consoles and arcades are supported, also includes dreamcast (flycast).|
 |**Arkadyzja**|Many|Similar to Fightcade  includes Dreamcast (flycast) and also Playstation 1 (with 2 and upto 4 player support).  This is great for Tekken 3 and other greats on PS1.  Definately worth checking out - performance was excellent.|
@@ -79,11 +79,12 @@ An alternative approach to consider for local multiplayer, is to use a video str
 - **Parsec**  - While the above options use  netplay features (each player runs an local instance of the console / computer that is kept in sync at regular intervals), parsec runs everything on one computer and streams the video output to each participating player (players provide gamepad inputs to the host).  It is much more bandwidth heavy but avoids desync issues associated with netplay.  It is generally better for emulators that have no online / limited netplay features.   It effectively turns the hosts pc into a private retro cloud gaming service.
 
 **The following are my picks for playing 'Linked Multiplayer' of your favourite LAN / Serial link games:**
-
-- **DOSBOX** - Offers a great way to play network LAN games over the internet.   The best option is to look for the eXoDOS collection, which already configures each network / serial game for easy network play (the host will have to forward a network port on their router, which may not be possible for some users).
-- **Doom / Duke3d / various source ports / remakes** - Many linked / LAN multiplayer games have been adapted into modern online friendly versions by various community focused projects.  This takes a lot of the pain of running online LAN Parties of your favourite FPS games, and adds in some nice quality of life improvements (support more than 8 players, mouse look) to make the classics much enjoyable.
-- **Xlink Kai** - Provide a network tunnelling service for  emulators (and real gaming hardware) to communicate online.  It works great, has great documentation and support, but of time to setup can be considerable depending on the emulator  or real console your setting up.   The biggest benefit is that you can game with a mix of real gaming hardware (e.g. PS2) and emulators (PCSX2) on the same network.
-- **Radmin VPN** - Is a free VPN application and service that provides exceptional support for local LAN gaming / system link gaming over the internet.  If you are getting tired of messing with firewallsettings and / or trying to figure out which ports to forward on each device to get your LAN games working across the internet, highly recommend give this a try.   Note: In the Radmin VPN settings make sure add your LAN game into the server list to resolve any connection issues (google for more info).
+| Application/Service | Supports| Comments|
+|------|--------|--------|
+|**DOSBOX**|Emulated DOS LAN|Offers a great way to play network LAN games over the internet.   The best option is to look for the eXoDOS collection, which already configures each network / serial game for easy network play (the host will have to forward a network port on their router, which may not be possible for some users).|
+|**Doom / Duke3d / various source ports / remakes**|Various|Many linked / LAN multiplayer games have been adapted into modern online friendly versions by various community focused projects.  This takes a lot of the pain of running online LAN Parties of your favourite FPS games, and adds in some nice quality of life improvements (support more than 8 players, mouse look) to make the classics much enjoyable.|
+|**Xlink Kai**|Various/Real Consoles| - Provide a network tunnelling service for  emulators (and real gaming hardware) to communicate online.  It works great, has great documentation and support, but of time to setup can be considerable depending on the emulator  or real console your setting up.   The biggest benefit is that you can game with a mix of real gaming hardware (e.g. PS2) and emulators (PCSX2) on the same network.|
+|**Radmin VPN**|PC/Windows Gaming|Is a free VPN application and service that provides exceptional support for local LAN gaming / system link gaming over the internet.  If you are getting tired of messing with firewallsettings and / or trying to figure out which ports to forward on each device to get your LAN games working across the internet, highly recommend give this a try.   Note: In the Radmin VPN settings make sure add your LAN game into the server list to resolve any connection issues (google for more info).|
 
 
 **Network Ports**
